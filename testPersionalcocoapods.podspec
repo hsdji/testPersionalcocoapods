@@ -1,6 +1,6 @@
 
 
-Pod::Spec.new do |s|
+Pod:Spec.new do |s|
   s.name         = "testPersionalcocoapods"
   s.version      = "V0.0.5"
   s.summary      = "网络请求封装(基于AFNnetWorking)\n
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 		SD"
 
   s.description  = <<-DESC
-			简单测试，项目不能运行，严禁使用。
+			简单测试,项目不能运行,严禁使用.
 			网络请求封装(基于AFNnetWorking)
 				1.post
 				2.get
