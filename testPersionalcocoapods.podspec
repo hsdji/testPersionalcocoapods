@@ -2,8 +2,14 @@
 
 Pod::Spec.new do |s|
   s.name         = "testPersionalcocoapods"
-  s.version      = "0.0.2"
-  s.summary      = "新建cocoapods 第一次提交，此版本只是添加文件，不可使用"
+  s.version      = "0.0.3"
+  s.summary      = "网络请求封装(基于AFNnetWorking)
+			1.post
+			2.get
+			3.delegate
+			4.pull
+			5.put
+			.............."
 
   s.description  = <<-DESC
 			简单测试，项目不能运行，严禁使用。
@@ -22,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = {:git => 'https://github.com/hsdji/testPersionalcocoapods.git', :tag => s.version}
   s.requires_arc = true
   s.source_files = 'test01/*.h'
-  s.dependency = 'AFNnetWorking'
+  s.dependency = "AFNnetWorking"
 
 	
   s.platform     = :ios, "9.0"
