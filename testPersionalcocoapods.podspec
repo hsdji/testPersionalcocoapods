@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = {:git => 'https://github.com/hsdji/testPersionalcocoapods.git', :tag => s.version}
   s.platform     = :ios, "9.0"
 
-  s.dependency = 'SDWebImage'
+  s.dependency = 'AFNetworkinggit '
 
   s.source_files = 'test/*.{h,m}'
   
