@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-
+sources='https://github.com/CocoaPods/Specs.git'
   s.name         = "testPersionalcocoapods"
   s.version      = "0.0.1"
   s.summary      = "新建cocoapods 第一次提交，此版本只是添加文件，不可使用"
