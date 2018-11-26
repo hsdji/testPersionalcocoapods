@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'test/*.*' 
 
-  s.public_header_files = testPersionalcocoapods/test/*.h 
+  s.public_header_files = 'testPersionalcocoapods/test/*.h'
 
   
  
