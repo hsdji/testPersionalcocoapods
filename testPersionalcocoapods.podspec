@@ -1,7 +1,6 @@
 
 
 Pod::Spec.new do |s|
-sources='https://github.com/CocoaPods/Specs.git'
   s.name         = "testPersionalcocoapods"
   s.version      = "0.0.1"
   s.summary      = "新建cocoapods 第一次提交，此版本只是添加文件，不可使用"
@@ -25,7 +24,7 @@ sources='https://github.com/CocoaPods/Specs.git'
   s.source_files = 'test01/*.h'
 
   #s.dependency =  'AFNetworking'
- # s.dependency  = 'SDWebImage'
+  # s.dependency  = 'SDWebImage'
 	
   s.platform     = :ios, "9.0"
 end
