@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   #s.dependency =  'AFNetworking'
  # s.dependency  = 'SDWebImage'
 	
-  spec.platform     = :ios, "9.0"
+  s.platform     = :ios, "9.0"
 end
