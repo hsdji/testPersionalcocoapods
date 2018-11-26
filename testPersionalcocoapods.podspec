@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = {:git => 'https://github.com/hsdji/testPersionalcocoapods.git', :tag => s.version}
   s.platform     = :ios, "9.0"
 
-  s.source_files = 'test/*.*' 
+  s.source_files = 'testPersionalcocoapods/test/*.{*}' 
 
   s.public_header_files = 'testPersionalcocoapods/test/*.h'
 
