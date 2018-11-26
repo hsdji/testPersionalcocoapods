@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'test01/*.h'
 
-  s.dependency  'AFNetworking'
-  s.dependency  'SDWebImage'
+  s.dependency  "AFNetworking"
+  s.dependency  "SDWebImage"
 	
   spec.platform     = :ios, "9.0"
 end
