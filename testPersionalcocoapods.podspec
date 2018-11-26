@@ -1,6 +1,6 @@
 
 
-Pod：Spec.new do |s|
+Pod::Spec.new do |s|
   s.name         = "testPersionalcocoapods"
   s.version      = "V0.0.5"
   s.summary      = "网络请求封装(基于AFNnetWorking)\n
