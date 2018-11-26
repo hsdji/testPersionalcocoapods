@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "testPersionalcocoapods"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "新建cocoapods 第一次提交，此版本只是添加文件，不可使用"
 
   s.description  = <<-DESC
