@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "testPersionalcocoapods"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "网络请求封装(基于AFNnetWorking)
 			1.post
 			2.get
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
 
-  s.source_files = '*'
+  s.source_files = 'test/*.{h,m}'
  # s.public_header_files = 'testPersionalcocoapods/test/*.h'
 
   
