@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking', '~> 2.3'
 
-  s.source_files = 'test/*.{h,m},Pods/Headers/*/*/*.h'
+  s.source_files = 'test/*.{h,m}','Pods'
   
 
   
