@@ -13,6 +13,13 @@ Pod::Spec.new do |s|
 
   s.description  = <<-DESC
 			简单测试，项目不能运行，严禁使用。
+			网络请求封装(基于AFNnetWorking)
+				1.post
+				2.get
+				3.delegate
+				4.pull
+				5.put
+				..............
                    DESC
 
   s.homepage     = "https://github.com/hsdji/testPersionalcocoapods"
