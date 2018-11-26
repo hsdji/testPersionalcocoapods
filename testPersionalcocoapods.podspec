@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'testPersionalcocoapods/test/*.h #公开文件
 
   
-  s.dependency 'AFNnetWorking' #依赖库
+  s.dependency 'AFNnetWorking' ,
 
 	
   
