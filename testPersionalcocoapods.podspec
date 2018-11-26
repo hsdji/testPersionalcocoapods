@@ -26,17 +26,17 @@ Pod::Spec.new do |s|
   
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-
-
   s.author             = { "单小飞" => "2530101715@qq.com" }
   s.source           = {:git => 'https://github.com/hsdji/testPersionalcocoapods.git', :tag => s.version}
-  s.requires_arc = true
-  s.source_files = 'test/*.*'
-  s.dependency  "AFNnetWorking"
+  s.platform     = :ios, "9.0"
+
+  s.source_files = 'test/*.*' #资源文件
+
+  s.public_header_files = 'testPersionalcocoapods/test/*.h #公开文件
+
+  
+  s.dependency 'AFNnetWorking'#依赖库
 
 	
-  s.platform     = :ios, "9.0"
+  
 end
