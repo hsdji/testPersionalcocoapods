@@ -32,8 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'test/*.{h,m}'
   s.dependency = 'SDWebImage'
- # s.public_header_files = 'testPersionalcocoapods/test/*.h'
- 
+
   
  
 end
