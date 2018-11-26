@@ -23,8 +23,6 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/hsdji/testPersionalcocoapods"
-  
-
   s.license      = "MIT"
   s.author             = { "单小飞" => "2530101715@qq.com" }
   s.source           = {:git => 'https://github.com/hsdji/testPersionalcocoapods.git', :tag => s.version}
