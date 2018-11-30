@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5015C6B21B1114800F15D5A /* PFFileManage.m in Sources */ = {isa = PBXBuildFile; fileRef = D5015C6A21B1114800F15D5A /* PFFileManage.m */; };
+		D5015C6F21B1176D00F15D5A /* PFuserInfoManage.m in Sources */ = {isa = PBXBuildFile; fileRef = D5015C6D21B1176D00F15D5A /* PFuserInfoManage.m */; };
 		D592874B21ABFBB700EC4524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D592874A21ABFBB700EC4524 /* AppDelegate.m */; };
 		D592874E21ABFBB700EC4524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D592874D21ABFBB700EC4524 /* ViewController.m */; };
 		D592875121ABFBB700EC4524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D592874F21ABFBB700EC4524 /* Main.storyboard */; };
@@ -20,6 +22,11 @@
 		8E08BA9CF96B21BCB23A2F63 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 		A6DE03E1BB7C2D7C6119BFA0 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		D0D1B633FD02AC55B8A99D24 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5015C6921B1114800F15D5A /* PFFileManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFileManage.h; sourceTree = "<group>"; };
+		D5015C6A21B1114800F15D5A /* PFFileManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFileManage.m; sourceTree = "<group>"; };
+		D5015C6C21B116DF00F15D5A /* PFHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHeader.h; sourceTree = "<group>"; };
+		D5015C6D21B1176D00F15D5A /* PFuserInfoManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFuserInfoManage.m; sourceTree = "<group>"; };
+		D5015C6E21B1176D00F15D5A /* PFuserInfoManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFuserInfoManage.h; sourceTree = "<group>"; };
 		D592874621ABFBB700EC4524 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D592874921ABFBB700EC4524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D592874A21ABFBB700EC4524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +59,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5015C6821B1114800F15D5A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5015C6C21B116DF00F15D5A /* PFHeader.h */,
+				D5015C6921B1114800F15D5A /* PFFileManage.h */,
+				D5015C6A21B1114800F15D5A /* PFFileManage.m */,
+				D5015C6E21B1176D00F15D5A /* PFuserInfoManage.h */,
+				D5015C6D21B1176D00F15D5A /* PFuserInfoManage.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D592873D21ABFBB700EC4524 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +92,7 @@
 		D592874821ABFBB700EC4524 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				D5015C6821B1114800F15D5A /* Classes */,
 				D592874921ABFBB700EC4524 /* AppDelegate.h */,
 				D592874A21ABFBB700EC4524 /* AppDelegate.m */,
 				D592874C21ABFBB700EC4524 /* ViewController.h */,
@@ -191,9 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5015C6B21B1114800F15D5A /* PFFileManage.m in Sources */,
 				D592874E21ABFBB700EC4524 /* ViewController.m in Sources */,
 				D592875921ABFBB800EC4524 /* main.m in Sources */,
 				D592874B21ABFBB700EC4524 /* AppDelegate.m in Sources */,
+				D5015C6F21B1176D00F15D5A /* PFuserInfoManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
