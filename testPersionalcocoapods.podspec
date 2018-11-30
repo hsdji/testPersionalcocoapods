@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "testPersionalcocoapods"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "网络请求封装(基于AFNnetWorking)\n
 			1.post\n
 			2.get \n
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking', '~> 2.3'
 
-  s.source_files = 'test/*.{h,m}','Pods'
+  s.source_files = 'test/Class/*.{h,m}','Pods'
   
 
   
